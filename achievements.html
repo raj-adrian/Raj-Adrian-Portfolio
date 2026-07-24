@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Achievements - Esteban Raj Adrian C.'s awards and recognitions.">
+    <title>Achievements - Esteban Raj Adrian C.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">ERA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="skills.html" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="achievements.html" class="nav-link active">Achievements</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="header-background"></div>
+        <h1 class="page-title">My Achievements</h1>
+        <p class="page-subtitle">Recognition and awards</p>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Filter Buttons -->
+        <section class="filter-section fade-in">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="academic">Academic</button>
+                <button class="filter-btn" data-filter="service">Service</button>
+                <button class="filter-btn" data-filter="military">Military</button>
+            </div>
+        </section>
+
+        <!-- Achievements Gallery -->
+        <section class="achievements-section fade-in">
+            <div class="achievements-gallery">
+                <!-- Achievement 1 -->
+                <div class="achievement-card" data-category="academic">
+                    <div class="achievement-image">
+                        <img src="https://images.unsplash.com/photo-1553531088-f80b08e2be45?w=400&h=300&fit=crop&q=80" alt="With Honors" loading="lazy">
+                        <div class="achievement-overlay">
+                            <button class="achievement-btn" data-achievement="1">View Details</button>
+                        </div>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>With Honors</h3>
+                        <p>Academic Excellence Recognition</p>
+                        <span class="achievement-tag">Academic</span>
+                    </div>
+                </div>
+
+                <!-- Achievement 2 -->
+                <div class="achievement-card" data-category="service">
+                    <div class="achievement-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&q=80" alt="Loyalty Award" loading="lazy">
+                        <div class="achievement-overlay">
+                            <button class="achievement-btn" data-achievement="2">View Details</button>
+                        </div>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>Loyalty Award</h3>
+                        <p>Dedicated Service Recognition</p>
+                        <span class="achievement-tag">Service</span>
+                    </div>
+                </div>
+
+                <!-- Achievement 3 -->
+                <div class="achievement-card" data-category="military">
+                    <div class="achievement-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&q=80" alt="ROTC Participation" loading="lazy">
+                        <div class="achievement-overlay">
+                            <button class="achievement-btn" data-achievement="3">View Details</button>
+                        </div>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>ROTC Participation</h3>
+                        <p>Military Training Excellence</p>
+                        <span class="achievement-tag">Military</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievement Details -->
+        <section class="achievement-details-section fade-in">
+            <h2 class="section-title">Detailed Achievements</h2>
+            <div class="details-container">
+                <div class="detail-box">
+                    <div class="detail-icon">🏆</div>
+                    <h3>With Honors</h3>
+                    <p><strong>Category:</strong> Academic Excellence</p>
+                    <p><strong>Description:</strong> Recognition for outstanding academic performance and dedication to studies. Achieved consistent high grades and demonstrated excellence in criminology coursework.</p>
+                    <p><strong>Significance:</strong> Reflects commitment to professional development and mastery of criminal justice concepts.</p>
+                </div>
+                <div class="detail-box">
+                    <div class="detail-icon">⭐</div>
+                    <h3>Loyalty Award</h3>
+                    <p><strong>Category:</strong> Service Excellence</p>
+                    <p><strong>Description:</strong> Recognition for dedicated service and unwavering commitment to professional responsibilities. Acknowledged for reliability and consistent excellence in work performance.</p>
+                    <p><strong>Significance:</strong> Demonstrates work ethic, professionalism, and dependability in hospitality industry.</p>
+                </div>
+                <div class="detail-box">
+                    <div class="detail-icon">🎖️</div>
+                    <h3>ROTC Participation</h3>
+                    <p><strong>Category:</strong> Military Training</p>
+                    <p><strong>Description:</strong> Active participation in Reserve Officer Training Course with focus on leadership development, military discipline, and professional conduct. Progressing through ranks and mastering tactical expertise.</p>
+                    <p><strong>Significance:</strong> Demonstrates commitment to law enforcement preparedness and military professionalism.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal for Achievement Details -->
+        <div id="achievementModal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
