@@ -254,14 +254,17 @@ button {
 }
 
 .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 3rem;
     animation: slideUp 1s ease;
 }
 
 .profile-image-wrapper {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     margin: 0 auto;
 }
 
