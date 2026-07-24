@@ -315,7 +315,6 @@ button {
     font-size: 3.5rem;
     font-weight: 700;
     color: var(--secondary);
-    margin-top: -110px;
     margin-bottom: 1rem;
     letter-spacing: 2px;
     animation: slideUp 1s ease 0.1s both;
