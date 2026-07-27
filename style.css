@@ -1994,12 +1994,21 @@ button {
         padding: 1.5rem;
     }
 }
+.modal-content {
+    width: 90%;
+    max-width: 700px;
+    max-height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden; /* prevents left-right scrolling */
+    box-sizing: border-box;
+}
+
 .modal-achievement-image {
     width: 100%;
     max-width: 100%;
     height: auto;
+    object-fit: contain;
     display: block;
     margin: 0 auto 20px;
     border-radius: 10px;
-    object-fit: contain;
 }
