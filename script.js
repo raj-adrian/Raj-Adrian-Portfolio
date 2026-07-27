@@ -192,6 +192,7 @@ const achievementDetails = {
     1: {
         title: 'With Honors',
         category: 'Academic Excellence',
+        image: 'WithHonors2.jpg',
         description: 'Recognition for outstanding academic performance and dedication to studies. Achieved consistent high grades and demonstrated excellence in criminology coursework.',
         details: 'This achievement reflects my commitment to professional development and mastery of criminal justice concepts. I maintained a strong GPA while actively participating in classroom discussions and research projects.'
     },
@@ -217,6 +218,8 @@ document.querySelectorAll('.achievement-btn').forEach(btn => {
         
         if (achievement) {
             modalBody.innerHTML = `
+                <img src="${achievement.image}" alt="${achievement.title}" class="modal-achievement-image">
+            
                 <h3>${achievement.title}</h3>
                 <p><strong>Category:</strong> ${achievement.category}</p>
                 <p>${achievement.description}</p>
