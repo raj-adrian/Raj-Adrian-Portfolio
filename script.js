@@ -194,19 +194,16 @@ const achievementDetails = {
         category: 'Academic Excellence',
         image: 'WithHonors2.jpg',
         description: 'Recognition for outstanding academic performance and dedication to studies. Achieved consistent high grades and demonstrated excellence in criminology coursework.',
-        details: 'This achievement reflects my commitment to professional development and mastery of criminal justice concepts. I maintained a strong GPA while actively participating in classroom discussions and research projects.'
     },
     2: {
         title: 'Loyalty Award',
         category: 'Service Excellence',
         description: 'Recognition for dedicated service and unwavering commitment to professional responsibilities. Acknowledged for reliability and consistent excellence in work performance.',
-        details: 'This award demonstrates my work ethic, professionalism, and dependability in the hospitality industry. I consistently delivered exceptional service and maintained high standards in all assigned tasks.'
     },
     3: {
         title: 'ROTC Participation',
         category: 'Military Training',
         description: 'Active participation in Reserve Officer Training Course with focus on leadership development, military discipline, and professional conduct.',
-        details: 'Through ROTC training, I developed strong leadership qualities, military discipline, and tactical expertise. I progressed through the ranks and mastered essential military protocols and procedures.'
     }
 };
 
