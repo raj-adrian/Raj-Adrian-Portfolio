@@ -1996,8 +1996,10 @@ button {
 }
 .modal-achievement-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: 0 auto 20px;
     border-radius: 10px;
+    object-fit: contain;
 }
